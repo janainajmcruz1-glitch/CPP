@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double vetor[8];
+    cout << "Digite 8 números reais:" << endl;
+    double soma = 0.0;
+    for(int i = 0; i < 8; i++) {
+        cin >> vetor[i];
+        soma += vetor[i];
+    }
+
+    double media = soma / 8.0;
+    cout << "Média aritmética: " << media << endl;
+    return 0;
+}
+
